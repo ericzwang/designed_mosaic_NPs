@@ -1,0 +1,2 @@
+length=2000
+for((i=0;i<length;i+=50)); do sbatch --job-name="mosaic-${i}" create_pair_csv_files.sh $i; done
