@@ -17,7 +17,7 @@ python create_class_csv_files.py
 ./create_pair_csv_files.scr
 ```
 
-(3) Concatenate the CSV files into all.csv
+(3) Concatenate the CSV files into `all.csv`
 ```bash
 ./make_all.scr
 ```
