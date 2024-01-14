@@ -6,6 +6,7 @@ tar -xf csv_files.tar.gz
 ```
 
 Here are steps for running the code:
+
 (1) Create the class CSV files
 ```bash
 python create_class_csv_files.py
