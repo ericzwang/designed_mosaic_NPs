@@ -1,0 +1,1 @@
+cat aggrescan/jobs/?/scores.csv aggrescan/jobs/??/scores.csv aggrescan/jobs/???/scores.csv > csv_files/solubleindices.csv

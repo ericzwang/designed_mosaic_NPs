@@ -1,0 +1,14 @@
+last=2000
+skip=50
+
+cd csv_files
+
+for((i=0;i<$last;i+=$skip)); do
+	j=$((i+skip))
+	tail -n +2 ${i}_${j}.csv > ${i}-temp.csv
+done
+
+cat header.csv ?-temp.csv ??-temp.csv ???-temp.csv ????-temp.csv > all.csv
+rm *-temp.csv
+
+cd ..
